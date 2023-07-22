@@ -1,7 +1,9 @@
 import {AiTwotoneCar} from 'react-icons/ai'
+import {Selector} from "./Selector";
 
 const MainHeader = () => {
     return (
+        <>
         <header className="w-full text-3xl p-2 flex justify-between mb-2 " style={{"borderBottom":"2px solid #ece1fa"}}>
             <h1 className="flex justify-center items-center">
                 <AiTwotoneCar className="mr-2" />
@@ -16,6 +18,8 @@ const MainHeader = () => {
 
 
         </header>
+        <Selector></Selector>
+        </>
     )
 }
 
